@@ -1,0 +1,34 @@
+$primary-skillsint: #164267;
+$secondary-skillsint: #0482a3;
+
+$field-skillsint: #0482a3;
+$fieldbg-skillsint: #0482a3;
+.app-skillsint {
+  .text-h1 {
+    color: $primary-skillsint;
+  }
+  .text-field,
+  .bg-field {
+    color: $field-skillsint;
+  }
+  .text-fieldbg,
+  .bg-fieldbg {
+    color: $field-skillsint;
+  }
+  a:link {
+    color: $secondary-skillsint;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $secondary-skillsint;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $secondary-skillsint;
+    text-decoration: underline;
+  }
+  a:active {
+    color: $secondary-skillsint;
+    text-decoration: none;
+  }
+}

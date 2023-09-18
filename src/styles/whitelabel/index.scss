@@ -1,0 +1,20 @@
+@import "src/styles/whitelabel/skills/skills.scss";
+@import "src/styles/whitelabel/skillsInt/skillsInt.scss";
+@import "src/styles/whitelabel/shift/shift.scss";
+@import "src/styles/whitelabel/barfoot/barfoot.scss";
+
+//@import 'src/styles/global.styl';
+
+.footer-links {
+  a:link {
+    color: #bdbdbd !important;
+  }
+  a:visited {
+    color: #bdbdbd !important;
+  }
+}
+.hide-section{
+  display: none;
+}
+
+

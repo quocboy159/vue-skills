@@ -1,0 +1,43 @@
+$primary-barfoot: #043978;
+$secondary-barfoot: #0064ce;
+$field-barfoot: #043978;
+$fieldbg-barfoot: #043978;
+.app-barfoot {
+  .text-h1 {
+    color: $primary-barfoot;
+  }
+  .text-secondary {
+    color: $secondary-barfoot !important;
+  }
+  .text-field,
+  .bg-field {
+    color: $field-barfoot;
+  }
+  .text-fieldbg,
+  .bg-fieldbg {
+    color: $field-barfoot;
+  }
+  a:link {
+    color: $secondary-barfoot;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $secondary-barfoot;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $secondary-barfoot;
+    text-decoration: underline;
+  }
+  a:active {
+    color: $secondary-barfoot;
+    text-decoration: none;
+  }
+
+  // img.header-logo{
+  //     // @: alias for /src ( @/assets/barfoot/logo.png = /src/assets/barfoot/logo.png
+  //     // ~ :  Using the prefix ~ enforces webpack treat the request as a module request, similar to require('some-module/image.svg')
+  //     // ref: https://vuejs-templates.github.io/webpack/static.html#asset-resolving-rules
+  //     background-image: url('~@/assets/barfoot/logo.png');
+  // }
+}

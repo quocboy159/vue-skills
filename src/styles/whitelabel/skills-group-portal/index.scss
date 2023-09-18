@@ -1,0 +1,294 @@
+$primary-color-skills: #d92d27;
+$primary-color-cdl: #00b2ad;
+$primary-color-etec: #0098da;
+$primary-color-imnz: #51ae47;
+$primary-color-instep: #057585;
+$primary-color-scg: #ff6400;
+$label-text-color: #1d1d1d;
+$q-menu-link-bg-color: #e0e0e0;
+
+.app-skills-group-portal-skills {
+  .q-menu-link {
+    background: $q-menu-link-bg-color !important;
+    a {
+      color: $primary-color-skills;
+    }
+  }
+  .q-icon-contact-us,
+  .btn-link-download {
+    color: $primary-color-skills !important;
+  }
+  .label-text {
+    color: $label-text-color !important;
+  }
+  .text-h1 {
+    color: $primary-color-skills;
+  }
+
+  .text-field,
+  .bg-field {
+    color: $primary-color-skills;
+  }
+  .text-fieldbg,
+  .bg-fieldbg {
+    color: $primary-color-skills;
+  }
+  a:link {
+    color: $primary-color-skills;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $primary-color-skills;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primary-color-skills;
+    text-decoration: underline;
+  }
+  a:active {
+    color: $primary-color-skills;
+    text-decoration: none;
+  }
+  .text-secondary,
+  .bg-secondary {
+    color: $primary-color-skills;
+  }
+}
+
+.app-skills-group-portal-cdl {
+  .q-menu-link {
+    background: $q-menu-link-bg-color !important;
+    a {
+      color: $primary-color-cdl;
+    }
+  }
+  .q-icon-contact-us,
+  .btn-link-download {
+    color: $primary-color-cdl !important;
+  }
+  .label-text {
+    color: $label-text-color !important;
+  }
+  .text-h1 {
+    color: $primary-color-cdl;
+  }
+  .text-field,
+  .bg-field {
+    color: $primary-color-cdl;
+  }
+  .text-fieldbg,
+  .bg-fieldbg {
+    color: $primary-color-cdl;
+  }
+  a:link {
+    color: $primary-color-cdl;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $primary-color-cdl;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primary-color-cdl;
+    text-decoration: underline;
+  }
+  a:active {
+    color: $primary-color-cdl;
+    text-decoration: none;
+  }
+  .text-secondary,
+  .bg-secondary {
+    color: $primary-color-cdl;
+  }
+}
+
+.app-skills-group-portal-etec {
+  .q-menu-link {
+    background: $q-menu-link-bg-color !important;
+    a {
+      color: $primary-color-etec;
+    }
+  }
+  .q-icon-contact-us,
+  .btn-link-download {
+    color: $primary-color-etec !important;
+  }
+  .label-text {
+    color: $label-text-color !important;
+  }
+  .text-h1 {
+    color: $primary-color-etec;
+  }
+
+  .text-field,
+  .bg-field {
+    color: $primary-color-etec;
+  }
+  .text-fieldbg,
+  .bg-fieldbg {
+    color: $primary-color-etec;
+  }
+  a:link {
+    color: $primary-color-etec;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $primary-color-etec;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primary-color-etec;
+    text-decoration: underline;
+  }
+  a:active {
+    color: $primary-color-etec;
+    text-decoration: none;
+  }
+  .text-secondary,
+  .bg-secondary {
+    color: $primary-color-etec;
+  }
+}
+
+.app-skills-group-portal-imnz {
+  .q-menu-link {
+    background: $q-menu-link-bg-color !important;
+    a {
+      color: $primary-color-imnz;
+    }
+  }
+  .q-icon-contact-us,
+  .btn-link-download {
+    color: $primary-color-imnz !important;
+  }
+  .label-text {
+    color: $label-text-color !important;
+  }
+  .text-h1 {
+    color: $primary-color-imnz;
+  }
+
+  .text-field,
+  .bg-field {
+    color: $primary-color-imnz;
+  }
+  .text-fieldbg,
+  .bg-fieldbg {
+    color: $primary-color-imnz;
+  }
+  a:link {
+    color: $primary-color-imnz;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $primary-color-imnz;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primary-color-imnz;
+    text-decoration: underline;
+  }
+  a:active {
+    color: $primary-color-imnz;
+    text-decoration: none;
+  }
+  .text-secondary,
+  .bg-secondary {
+    color: $primary-color-imnz;
+  }
+}
+
+.app-skills-group-portal-instep {
+  .q-menu-link {
+    background: $q-menu-link-bg-color !important;
+    a {
+      color: $primary-color-instep;
+    }
+  }
+  .q-icon-contact-us,
+  .btn-link-download {
+    color: $primary-color-instep !important;
+  }
+  .label-text {
+    color: $label-text-color !important;
+  }
+  .text-h1 {
+    color: $primary-color-instep;
+  }
+
+  .text-field,
+  .bg-field {
+    color: $primary-color-instep;
+  }
+  .text-fieldbg,
+  .bg-fieldbg {
+    color: $primary-color-instep;
+  }
+  a:link {
+    color: $primary-color-instep;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $primary-color-instep;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primary-color-instep;
+    text-decoration: underline;
+  }
+  a:active {
+    color: $primary-color-instep;
+    text-decoration: none;
+  }
+  .text-secondary,
+  .bg-secondary {
+    color: $primary-color-instep;
+  }
+}
+
+.app-skills-group-portal-scg {
+  .q-menu-link {
+    background: $q-menu-link-bg-color !important;
+    a {
+      color: $primary-color-scg;
+    }
+  }
+  .q-icon-contact-us,
+  .btn-link-download {
+    color: $primary-color-scg !important;
+  }
+  .label-text {
+    color: $label-text-color !important;
+  }
+  .text-h1 {
+    color: $primary-color-scg;
+  }
+  .text-field,
+  .bg-field {
+    color: $primary-color-scg;
+  }
+  .text-fieldbg,
+  .bg-fieldbg {
+    color: $primary-color-scg;
+  }
+  a:link {
+    color: $primary-color-scg;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $primary-color-scg;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primary-color-scg;
+    text-decoration: underline;
+  }
+  a:active {
+    color: $primary-color-scg;
+    text-decoration: none;
+  }
+  .text-secondary,
+  .bg-secondary {
+    color: $primary-color-scg;
+  }
+}

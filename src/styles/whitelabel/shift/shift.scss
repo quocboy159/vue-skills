@@ -1,0 +1,42 @@
+$primary-shift: #0996ff;
+$secondary-shift: #ff0033;
+$field-shift: #0996ff;
+$fieldbg-shift: #0996ff;
+
+.app-shift {
+  .text-h1 {
+    color: $primary-shift;
+  }
+  .text-secondary {
+    color: $secondary-shift !important;
+  }
+
+  .text-field,
+  .bg-field {
+    color: $field-shift;
+  }
+  .text-fieldbg,
+  .bg-fieldbg {
+    color: $field-shift;
+  }
+  a:link {
+    color: $primary-shift;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $primary-shift;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primary-shift;
+    text-decoration: underline;
+  }
+  a:active {
+    color: $primary-shift;
+    text-decoration: none;
+  }
+  .text-secondary,
+  .bg-secondary {
+    color: $secondary-shift;
+  }
+}

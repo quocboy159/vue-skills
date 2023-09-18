@@ -1,0 +1,59 @@
+# Node.js with Vue
+
+# Build a Node.js project that uses Vue.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- deploy/oauth-test
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+- group: 'test-ui'
+- name: APP_PATH
+  value: '100651.SkillsOAuth.IdentityServer/SkillsOAuth.Portal.UI/portal-app'
+
+steps:
+# - task: Bash@3
+#   inputs:
+#     targetType: 'inline'
+#     script: 'echo "$PORTAL_SECRET"'
+    
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    cd "$APP_PATH"
+    chmod +x build-env.sh
+    npm install
+    npm run build
+  displayName: 'npm install and build'
+
+- task: CopyFiles@2
+  displayName: 'Copy dist'
+  inputs:
+    SourceFolder: $(APP_PATH)
+    Contents: 'dist/**/*'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    CleanTargetFolder: true
+    OverWrite: true
+    flattenFolders: false
+
+- task: ArchiveFiles@2
+  displayName: 'Zip dist'
+  inputs:
+    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)/dist'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/PortalUI-$(Build.BuildId).zip'
+    replaceExistingArchive: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'

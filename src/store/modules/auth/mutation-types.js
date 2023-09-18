@@ -1,0 +1,6 @@
+export const LOGGED_IN = 'LOGGED_IN'
+export const LOGGED_OUT = 'LOGGED_OUT'
+export const PROVIDER_BUSY = 'PROVIDER_BUSY'
+export const CURRENT_USER = 'CURRENT_USER'
+export const CURRENT_LABEL = 'CURRENT_LABEL'
+export const REDIRECT_URL = 'REDIRECT_URL'

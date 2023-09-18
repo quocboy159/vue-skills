@@ -1,0 +1,60 @@
+$primary-skills: #c01424;
+$secondary-skills: #164267;
+$field-skills: #164267;
+$fieldbg-skills: #164267;
+$blue-color: #337ab7;
+.app-skills {
+  .text-h1 {
+    color: $primary-skills;
+  }
+  .text-secondary {
+    color: $secondary-skills !important;
+  }
+  .text-field,
+  .bg-field {
+    color: $field-skills;
+  }
+  .text-fieldbg,
+  .bg-fieldbg {
+    color: $field-skills;
+  }
+  a:link {
+    color: $primary-skills;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $primary-skills;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $primary-skills;
+    text-decoration: underline;
+  }
+  a:active {
+    color: $primary-skills;
+    text-decoration: none;
+  }
+  li.blue-link {
+    color: $blue-color;
+  }
+  a.blue-link {
+    color: $blue-color;
+    text-decoration: none;
+  }
+  a.blue-link:link {
+    color: $blue-color;
+    text-decoration: none;
+  }
+  a.blue-link:visited {
+    color: $blue-color;
+    text-decoration: none;
+  }
+  a.blue-link:hover {
+    color: $blue-color;
+    text-decoration: underline;
+  }
+  a.blue-link:active {
+    color: $blue-color;
+    text-decoration: none;
+  }
+}

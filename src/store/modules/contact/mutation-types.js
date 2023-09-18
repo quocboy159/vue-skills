@@ -1,0 +1,2 @@
+export const UPDATE_CONTACT = 'UPDATE_CONTACT'
+export const GET_CONTACT = 'GET_CONTACT'

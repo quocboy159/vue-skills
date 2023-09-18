@@ -1,0 +1,95 @@
+.btn-select {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.loading {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    z-index: 999;
+  }
+  
+  .q-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .q-table thead th, .q-table tbody td, .q-table__control > span, .q-table__control > label, .q-table__bottom {
+      font-size: 14px !important;
+  }
+  
+  .q-table q-btn__content{
+    color:#1d1d1d
+  }
+  
+  .q-table--no-wrap td {
+      white-space: normal !important;
+  }
+  
+  .q-skills-page-layout{
+    padding: 0px 24px 24px 24px
+  }
+  
+  .p-l-10 {
+  padding-left: 10px
+  }
+  
+  .field-name
+  {
+    font-weight: bold;
+  }
+
+  .field-label
+  {
+    text-align: right;
+    padding-top: 14px;
+    padding-right: 22px;
+  }
+  
+  .field-label-checkbox
+  {
+    padding-top: 0;
+  }
+  
+  .field-input
+  {
+    flex: 1;
+    padding-bottom: 20px;
+  }
+  
+  .field-name-required
+  {
+    font-weight: bold;
+
+    &:after {
+      content: " * ";
+      color: red
+    }
+  }
+
+  .menu-class
+  {
+    padding-top: 0;
+    padding-bottom : 0
+  }
+  
+  .form-group{
+    padding-bottom : 20px
+  }
+  
+  .field-text{
+    padding-left: 20px
+  }
+
+  .field-text-1{
+    padding-left: 20px
+  }
+
+  @media only screen and (max-width: 1439px) {
+  .field-text {
+    padding-left: 0px
+  }
+}

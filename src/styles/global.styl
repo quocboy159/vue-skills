@@ -1,0 +1,262 @@
+//new-global-styles
+
+// START custom width styles
+
+$xsWidth ?= 599px
+$smWidth ?= 1023px
+$mdWidth ?= 1439px
+$lgWidth ?= 1919px
+$xlWidth ?= 1920px
+
+$defaultFieldWidth ?= 300px
+$fieldWidth2 ?= 347px
+
+
+//custom colour rules
+ //$fieldColour = #000000
+// $fieldbgColour = ''
+
+
+.text-fieldcolour 
+  color: $fieldColour !important
+
+.bg-fieldcolour 
+  background: $fieldColour !important
+
+// .text-fieldbgcolour 
+//   color: #000000
+
+// .bg-fieldbgcolour 
+//   background: #000000
+
+// END custom width style
+
+//START new default font sizes
+// font scale 'a perfect fourth' https://type-scale.com/
+
+
+
+
+//FIX import from Quasar properly
+$grey-8 ?= #616161 
+$separator-color         ?= rgba(0, 0, 0, .12)
+$generic-border-radius          ?= 4px
+$primary = rgba(192, 20, 36,1) /* #c01424 */
+//custom colour rules
+$secondary = rgba(4, 149, 188, 1) /*#0495bc*/
+
+
+
+
+
+//END FIX import from Quasar properly
+
+
+
+.bordered
+    border 1px solid $separator-color
+    border-radius $generic-border-radius 
+
+
+
+//TEXT
+
+//text colour
+.helper-text
+    color $primary
+
+//padding for defined text blocks
+#intro-title
+  padding-bottom:1em
+
+//font styles
+  .text-h1
+      font-size: 2.488rem   
+      line-height: 120%   
+      weight: 400   
+      letter-spacing: -.01562em  
+      //
+      margin-block-start  0.4em
+      margin-block-end 0.4em
+      margin-inline-start 0px
+      margin-inline-end 0px      
+
+  .text-h2   
+      font-size: 2.074rem  
+      line-height: 120%   
+      letter-spacing: -.00833em   
+      //weight: 400   
+      //
+      margin-block-start  0.4em
+      margin-block-end 0.4em
+      margin-inline-start 0px
+      margin-inline-end 0px
+
+    .text-h3   
+      font-size: 1.728rem   
+      line-height: 130%   
+      letter-spacing: normal
+      //weight: 400
+      //
+      margin-block-start  0.4em
+      margin-block-end 0.4em
+      margin-inline-start 0px
+      margin-inline-end 0px
+  
+    .text-h4, .text-subtitle1    
+      font-size: 1.44rem 
+      line-height: 140% 
+      letter-spacing: .00735em
+      weight: 400
+      //
+      margin-block-start  0.4em
+      margin-block-end 0.4em
+      margin-inline-start 0px
+      margin-inline-end 0px
+  
+    .text-h5     
+      font-size: 1.2rem 
+      line-height: 140% 
+      letter-spacing: normal
+      weight: 400
+      //
+      margin-block-start  0.4em
+      margin-block-end 0.4em
+      margin-inline-start 0px
+      margin-inline-end 0px
+
+    .text-h6
+      font-size: 1rem 
+      line-height: 140% 
+      letter-spacing: .0125em
+      weight: 500
+      //
+      margin-block-start  0.4em
+      margin-block-end 0.4em
+      margin-inline-start 0px
+      margin-inline-end 0px          
+
+    .text-subtitle2 
+      font-size: .875rem 
+      line-height: 1.375rem 
+      letter-spacing: .00714em
+      weight: 500
+    
+    .text-body1
+      font-size: 1rem 
+      line-height: 1.5rem 
+      letter-spacing: .03125em
+      weight: 400
+    
+    .text-body2
+      font-size: .875rem 
+      line-height: 1.25rem 
+      letter-spacing: .01786em
+      weight: 400
+  
+    .text-overline
+      font-size: .75rem 
+      line-height: 2rem 
+      letter-spacing: .16667em
+      weight: 500
+  
+    .text-caption
+      font-size: .75rem 
+      line-height: 1.25rem 
+      letter-spacing: .03333em
+      weight: 400
+
+    .text-label
+      color: $grey-8
+
+    .text-pending
+      color: $grey-8  
+    
+
+
+//Media queries for fonts:
+//Desktop fonts:
+@media only screen and (min-width: $smWidth)
+
+  .text-h1
+      font-size: 3.052rem
+      //
+      margin-block-start  0.4em
+      margin-block-end 0.4em
+      margin-inline-start 0px
+      margin-inline-end 0px
+      
+
+  .text-h2   
+      font-size: 2.441rem           
+      //
+      margin-block-start  0.4em
+      margin-block-end 0.4em
+      margin-inline-start 0px
+      margin-inline-end 0px
+
+    .text-h3   
+      font-size: 1.953rem             
+      //
+      margin-block-start  0.4em
+      margin-block-end 0.4em
+      margin-inline-start 0px
+      margin-inline-end 0px
+  
+    .text-h4, .text-subtitle1    
+      font-size: 1.563rem
+                 
+      //
+      margin-block-start  0.4em
+      margin-block-end 0.4em
+      margin-inline-start 0px
+      margin-inline-end 0px
+  
+    .text-h5     
+      font-size: 1.25rem            
+      //
+      margin-block-start  0.4em
+      margin-block-end 0.4em
+      margin-inline-start 0px
+      margin-inline-end 0px
+
+    .text-h6
+      font-size: 1rem               
+      //
+      margin-block-start  0.4em
+      margin-block-end 0.4em
+      margin-inline-start 0px
+      margin-inline-end 0px
+    
+      
+    .text-subtitle2
+      font-size: .875rem
+      line-height: 1.375rem
+      
+     
+    
+    .text-body1
+      font-size: 1rem
+      line-height: 1.5rem
+      
+     
+    
+    .text-body2
+      font-size: .875rem
+      line-height: 1.25rem
+      
+      
+  
+    .text-overline
+      font-size: .75rem
+      line-height: 2rem
+     
+  
+    .text-caption
+      font-size: .75rem
+      line-height: 1.25rem
+
+    
+     
+     
+
